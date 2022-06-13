@@ -1,0 +1,8 @@
+browser->server: HTTP POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+server-->browser: parsing was done successfully
+
+note over browser:
+Browser executes the event handler that creates a new note, 
+adds it to the notes list then rerenders the note list on 
+the page and sends the new note to the server.
+end note
